@@ -1,7 +1,7 @@
 // heap.cpp
 // Tianle Yu
 
-#include "heap.h"
+#include "intheap.h"
 #include <iostream>
 using std::cout;
 
