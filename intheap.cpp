@@ -1,14 +1,15 @@
-// heap.cpp
-// Tianle Yu
+// intheap.cpp
+// Diba Mirza, Tianle Yu
 
 #include "intheap.h"
 #include <iostream>
 using std::cout;
 
 // ------ Implement these functions ------
+// ------     Make it a min heap!   -------
 
-// Takes in a vector, and turns it into a heap IN PLACE
-std::vector<int> heapify(std::vector<int> &input)
+// Takes in a vector, and turns it into a heap IN PLACE and STORES it as new vdata
+std::vector<int> Heap::heapify(std::vector<int> &input)
 {
 }
 
@@ -26,17 +27,17 @@ void Heap::pop()
 }
 
 // Returns the index of the parent of a node at given index (-1 for root)
-int parent(int index)
+int Heap::parent(int index)
 {
 }
 
 // Returns the index of the left child of a node at given index (-1 for node that does not exist)
-int leftChild(int index)
+int Heap::leftChild(int index)
 {
 }
 
 // Returns the index of the right child of a node at given index (-1 for node that does not exist)
-int rightChild(int index)
+int Heap::rightChild(int index)
 {
 }
 

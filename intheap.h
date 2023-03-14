@@ -1,6 +1,8 @@
-// heap.h
+// intheap.h
 // Binary heap tree header file for CS 24 lab
-// Diba Mirza
+// Diba Mirza, Tianle Yu
+
+// DO NOT CHANGE THIS FILE
 
 #ifndef HEAP_H
 #define HEAP_H
